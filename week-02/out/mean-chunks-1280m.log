@@ -1,0 +1,9 @@
+/src/mean_chunks.py:8: DtypeWarning: Columns (0: store_and_fwd_flag) have mixed types. Specify dtype option on import or set low_memory=False.
+  for i, chunk in enumerate(pd.read_csv('/data/yellow_tripdata_2024-01.csv', chunksize=chunk_size)):
+Porcja 1: wierszy=1000000, srednia=3.4609, mediana=1.70
+Porcja 2: wierszy=1000000, srednia=3.2042, mediana=1.62
+Porcja 3: wierszy=964624, srednia=4.3149, mediana=1.69
+Srednia (a - ze srednich porcji): 3.6600
+Srednia (b - z sumy dystansow i liczby wierszy: 3.6522
+exit=0
+peak=766312448

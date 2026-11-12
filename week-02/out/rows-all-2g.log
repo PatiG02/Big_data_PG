@@ -1,0 +1,5 @@
+/src/mean_rows.py:7: DtypeWarning: Columns (0: store_and_fwd_flag) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv('/data/yellow_tripdata_2024-01.csv', nrows=nrows)
+Wiersze: 2964624, Zajetosc danych: 540.23 MB
+exit=0
+peak=1461121024

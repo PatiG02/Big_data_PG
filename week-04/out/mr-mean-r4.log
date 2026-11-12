@@ -1,0 +1,115 @@
+No configs found; falling back on auto-configuration
+No configs specified for hadoop runner
+Looking for hadoop binary in $PATH...
+Found hadoop binary: /opt/hadoop/bin/hadoop
+Using Hadoop version 3.4.3
+Creating temp directory /tmp/mr_mean.hadoop.20261112.172827.693331
+uploading working dir files to hdfs:///user/hadoop/tmp/mrjob/mr_mean.hadoop.20261112.172827.693331/files/wd...
+Copying other local files to hdfs:///user/hadoop/tmp/mrjob/mr_mean.hadoop.20261112.172827.693331/files/
+Running step 1 of 1...
+  packageJobJar: [/tmp/hadoop-unjar1679435969086529262/] [] /tmp/streamjob17998670138688016363.jar tmpDir=null
+  Connecting to ResourceManager at resourcemanager/172.22.0.2:8032
+  Connecting to ResourceManager at resourcemanager/172.22.0.2:8032
+  Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794500780781_0007
+  Total input files to process : 1
+  number of splits:10
+  Submitting tokens for job: job_1794500780781_0007
+  Executing with tokens: []
+  resource-types.xml not found
+  Unable to find 'resource-types.xml'.
+  Submitted application application_1794500780781_0007
+  The url to track the job: http://resourcemanager:8088/proxy/application_1794500780781_0007/
+  Running job: job_1794500780781_0007
+  Job job_1794500780781_0007 running in uber mode : false
+   map 0% reduce 0%
+   map 7% reduce 0%
+   map 10% reduce 0%
+   map 17% reduce 0%
+   map 26% reduce 0%
+   map 28% reduce 0%
+   map 37% reduce 0%
+   map 39% reduce 0%
+   map 42% reduce 0%
+   map 50% reduce 0%
+   map 52% reduce 0%
+   map 59% reduce 0%
+   map 60% reduce 0%
+   map 63% reduce 0%
+   map 77% reduce 0%
+   map 80% reduce 0%
+   map 80% reduce 7%
+   map 87% reduce 7%
+   map 90% reduce 7%
+   map 90% reduce 14%
+   map 90% reduce 23%
+   map 97% reduce 30%
+   map 100% reduce 30%
+   map 100% reduce 82%
+   map 100% reduce 100%
+  Job job_1794500780781_0007 completed successfully
+  Output directory: hdfs:///out/mr-mean-r4
+Counters: 55
+	File Input Format Counters 
+		Bytes Read=310645224
+	File Output Format Counters 
+		Bytes Written=5091
+	File System Counters
+		FILE: Number of bytes read=65941
+		FILE: Number of bytes written=4542990
+		FILE: Number of large read operations=0
+		FILE: Number of read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=310646264
+		HDFS: Number of bytes read erasure-coded=0
+		HDFS: Number of bytes written=5091
+		HDFS: Number of large read operations=0
+		HDFS: Number of read operations=50
+		HDFS: Number of write operations=8
+	Job Counters 
+		Data-local map tasks=12
+		Killed map tasks=2
+		Launched map tasks=12
+		Launched reduce tasks=4
+		Total megabyte-milliseconds taken by all map tasks=550211584
+		Total megabyte-milliseconds taken by all reduce tasks=164761600
+		Total time spent by all map tasks (ms)=537316
+		Total time spent by all maps in occupied slots (ms)=537316
+		Total time spent by all reduce tasks (ms)=160900
+		Total time spent by all reduces in occupied slots (ms)=160900
+		Total vcore-milliseconds taken by all map tasks=537316
+		Total vcore-milliseconds taken by all reduce tasks=160900
+	Map-Reduce Framework
+		CPU time spent (ms)=114590
+		Combine input records=2964624
+		Combine output records=2374
+		Failed Shuffles=0
+		GC time elapsed (ms)=3607
+		Input split bytes=1040
+		Map input records=2964625
+		Map output bytes=46222615
+		Map output materialized bytes=66157
+		Map output records=2964624
+		Merged Map outputs=40
+		Peak Map Physical memory (bytes)=385036288
+		Peak Map Virtual memory (bytes)=2803441664
+		Peak Reduce Physical memory (bytes)=246587392
+		Peak Reduce Virtual memory (bytes)=2768457728
+		Physical memory (bytes) snapshot=4146339840
+		Reduce input groups=260
+		Reduce input records=2374
+		Reduce output records=260
+		Reduce shuffle bytes=66157
+		Shuffled Maps =40
+		Spilled Records=4748
+		Total committed heap usage (bytes)=2958032896
+		Virtual memory (bytes) snapshot=38622273536
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+job output is in hdfs:///out/mr-mean-r4
+Removing HDFS temp directory hdfs:///user/hadoop/tmp/mrjob/mr_mean.hadoop.20261112.172827.693331...
+Removing temp directory /tmp/mr_mean.hadoop.20261112.172827.693331...
